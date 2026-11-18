@@ -1,8 +1,8 @@
-# pokerface — archived research prototype (publication candidate)
+# pokerface — archived research prototype
 
 **Status: stopped / documentation only.** This repository candidate records an offline, CPU-oriented study of whether pre-bet face/hand features in televised poker have measurable association with a *showdown-strength proxy*. It is **not a lie detector**, does not infer a player's intent, and has **no demonstrated predictive value**. Do not deploy it for real-time or consequential judgments.
 
-The owner paused source collection, census, and further training on 2026-11-06 and is considering closing the project. No collection, downloading, retraining, model deployment, or remote publication is part of this package. The sole real-data diagnostic run was on 2026-11-05; results and limitations: [docs/RESULTS.zh-CN.md](docs/RESULTS.zh-CN.md). Decisions and methods: [docs/DECISIONS.zh-CN.md](docs/DECISIONS.zh-CN.md).
+The owner paused source collection, census, and further training on 2026-11-06 and is considering closing the project. This archive does not resume collection, downloading, retraining or model deployment. The sole real-data diagnostic run was on 2026-11-05; results and limitations: [docs/RESULTS.zh-CN.md](docs/RESULTS.zh-CN.md). Decisions and methods: [docs/DECISIONS.zh-CN.md](docs/DECISIONS.zh-CN.md).
 
 ## Scope of the snapshot
 
@@ -25,6 +25,6 @@ The output is **synthetic only** and must never be cited as a poker accuracy res
 
 ## Publication status
 
-The owner authorized a public pokerface repository, no personal attribution, and unrestricted use of the original code and documentation under the Unlicense (see LICENSE). Third-party dependencies, MediaPipe models and broadcast footage are not covered. This candidate remains local pending an exact-commit audit and GitHub API access; see docs/PUBLISH_REVIEW.zh-CN.md.
+The owner authorized a public pokerface repository, no personal attribution, and unrestricted use of the original code and documentation under the Unlicense (see LICENSE). Third-party dependencies, MediaPipe models and broadcast footage are not covered. The reviewed snapshot was published by SSH as a fast-forward descendant of the initial placeholder README; see docs/VERIFICATION.zh-CN.md for the scope and limits of verification.
 
 中文说明：[决策过程](docs/DECISIONS.zh-CN.md) · [研究进展与结果](docs/RESULTS.zh-CN.md) · [本机验证](docs/VERIFICATION.zh-CN.md) · [发布审查](docs/PUBLISH_REVIEW.zh-CN.md).
